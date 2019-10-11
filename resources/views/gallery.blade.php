@@ -70,7 +70,7 @@
                               </div>
                               <div class="text">
                                 <span>Responsive</span>
-                                <h4>Minimal Capture</h4>
+                                <h4><a href="{{ route('minimal') }}">Minimal Capture</a></h4>
                               </div>
                             </div>
                             <div class="col-md-3 col-sm-6 project-item mix creative nature">
@@ -79,7 +79,7 @@
                               </div>
                               <div class="text">
                                 <span>Creative / Nature</span>
-                                <h4>Tattoo Lovers</h4>
+                                <h4><a href="{{ route('tattoo') }}">Tattoo Lovers</a></h4>
                               </div>
                             </div>
                             <div class="col-md-3 col-sm-6 project-item mix creative">
@@ -88,7 +88,7 @@
                               </div>
                               <div class="text">
                                 <span>Creative</span>
-                                <h4>Develope &amp; Coding</h4>
+                                <h4><a href="{{ route('develope') }}">Develope &amp; Coding</a></h4>
                               </div>
                             </div>
                             <div class="col-md-3 col-sm-6 project-item mix responsive webdesign">
@@ -97,7 +97,7 @@
                               </div>
                               <div class="text">
                                 <span>Responsive / Web Design</span>
-                                <h4>Network Inspire</h4>
+                                <h4><a href="{{ route('network') }}">Network Inspire</a></h4>
                               </div>
                             </div>
                             <div class="col-md-3 col-sm-6 project-item mix webdesign">
@@ -106,7 +106,7 @@
                               </div>
                               <div class="text">
                                 <span>Web Design</span>
-                                <h4>Start From Scatch</h4>
+                                <h4><a href="{{ route('start') }}">Start From Scatch</a></h4>
                               </div>
                             </div>
                             <div class="col-md-3 col-sm-6 project-item mix nature">
@@ -115,7 +115,7 @@
                               </div>
                               <div class="text">
                                 <span>Nature</span>
-                                <h4>Stay Safe Watch</h4>
+                                <h4><a href="{{ route('stay') }}">Stay Safe Watch</a></h4>
                               </div>
                             </div>
                         </div>

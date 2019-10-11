@@ -19,4 +19,17 @@ route::get('/robot','adv_gal_controller@robot')->name('robot');
 
 route::get('/rock','adv_gal_controller@rock')->name('rock');
 
+route::get('/minimal','adv_gal_controller@minimal')->name('minimal');
+
+route::get('/tattoo','adv_gal_controller@tattoo')->name('tattoo');
+
+route::get('/develope','adv_gal_controller@develope')->name('develope');
+
+route::get('/network','adv_gal_controller@network')->name('network');
+
+route::get('/start','adv_gal_controller@start')->name('start');
+
+route::get('/stay','adv_gal_controller@stay')->name('stay');
+
+
 

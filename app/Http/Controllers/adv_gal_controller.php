@@ -38,8 +38,11 @@ class adv_gal_controller extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function minimal()
     {
+        $minimal = "Minimal Capture";
+
+        return view('adv_gallery/adv_minimal',['minimal' => $minimal]);
         //
     }
 
@@ -49,8 +52,11 @@ class adv_gal_controller extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function tattoo()
     {
+        $tatoo = "Tattoo lovers";
+
+        return view('adv_gallery/adv_tattoo',['tattoo' => $tattoo]);
         //
     }
 
@@ -60,8 +66,11 @@ class adv_gal_controller extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function develope()
     {
+        $develope = "Develope & Coding";
+
+        return view('adv_gallery/adv_develope',['develope' => $develope]);
         //
     }
 
@@ -72,8 +81,11 @@ class adv_gal_controller extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function network()
     {
+        $network = "Network Inspire";
+
+        return view('adv_gallery/adv_network',['network' => $network]);
         //
     }
 
@@ -83,8 +95,20 @@ class adv_gal_controller extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function start()
     {
+        $start = "Start From Scatch";
+
+        return view('adv_gallery/adv_start',['start' => $start]);
         //
     }
+
+    public function stay()
+    {
+        $stay = "Stay Safe Watch";
+
+        return view('adv_gallery/adv_stay',['stay' => $stay]);
+        //
+    }
+
 }
